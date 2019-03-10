@@ -15,8 +15,9 @@ def first_challenge
     }
   }
 
-  binding.pry
+  
   contacts.each {|person, data|
+    binding.pry
     if person=="Freddy Mercury"
       data.each {|attribute, value|
         if value== :favorite_icecream_flavors
