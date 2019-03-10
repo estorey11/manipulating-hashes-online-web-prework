@@ -15,7 +15,7 @@ def first_challenge
     }
   }
 
-  
+  binding.pry
   contacts.each {|person, data|
     if person=="Freddy Mercury"
       data.each {|attribute, value|
