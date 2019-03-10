@@ -18,8 +18,8 @@ def first_challenge
   
   contacts.each {|person, data|
     if person=="Freddy Mercury"
-      binding.pry
       data.each {|attribute, value|
+        binding.pry
         if value== :favorite_icecream_flavors
           value.delete_if { |flavor|
             flavor=="strawberry"
